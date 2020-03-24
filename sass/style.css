@@ -124,6 +124,15 @@ h5 {
   font-weight: 700;
 }
 
+h6 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-family: "Raleway", "Verdana", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
 p {
   margin: 0px;
 }
@@ -142,6 +151,32 @@ p {
 }
 .Button:hover {
   background-color: #71f6eb;
+}
+
+.Ico {
+  cursor: pointer;
+  display: inline-block;
+  width: 46px;
+  height: 40px;
+}
+.Ico:hover {
+  background-color: #71f6eb;
+}
+
+.IcoPinterest {
+  background-image: url(../../img/pinterest.svg);
+}
+
+.IcoTwitter {
+  background-image: url(../../img/Twiter.svg);
+}
+
+.IcoFacebook {
+  background-image: url(../../img/Facebook.svg);
+}
+
+.IcoTwitter2 {
+  background-image: url(../../img/Twiter2.svg);
 }
 
 .Wrapper {
@@ -292,7 +327,8 @@ p {
 }*/
 .Footer-Wrapper {
   background-image: url("/img/christmas_snow_trees-wide.svg");
-  background-position: center;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .ContactUs-Content {
@@ -355,11 +391,10 @@ p {
   padding-top: 9px;
 }
 
-/*.ContactUs-AdressInfo{
-
-}*/
 .Social-Content {
-  padding-top: 95px;
+  text-align: center;
+  padding-top: 215px;
+  padding-bottom: 145px;
 }
 
 /*# sourceMappingURL=style.css.map */

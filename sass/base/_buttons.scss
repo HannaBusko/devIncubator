@@ -13,3 +13,27 @@
     background-color: $colorBackground_hover;
   }
 }
+
+.Ico {
+  cursor: pointer;
+  display: inline-block;
+  width: 46px;
+  height: 40px;
+  &:hover{
+    background-color: $colorBackground_hover;
+  }
+}
+
+.IcoPinterest {
+  background-image: url(../../img/pinterest.svg);
+}
+
+.IcoTwitter {
+  background-image: url(../../img/Twiter.svg);
+}
+.IcoFacebook {
+  background-image: url(../../img/Facebook.svg);
+}
+.IcoTwitter2 {
+  background-image: url(../../img/Twiter2.svg);
+}

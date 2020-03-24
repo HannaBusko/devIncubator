@@ -56,7 +56,11 @@ h5 {
 }
 
 h6 {
+  text-transform: uppercase;
   @extend %heading;
+  @include font($size: 1.6rem, $family: $fontRaleway, $weight: 400);
+  color: $colorWhite;
+  padding-bottom: 15px;
 }
 
 p {

@@ -4,7 +4,8 @@
 
 .Footer-Wrapper {
   background-image: url("/img/christmas_snow_trees-wide.svg");
-  background-position: center;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .ContactUs-Content {
@@ -61,9 +62,9 @@
 .ContactUs-P{
   padding-top: 9px;
 }
-/*.ContactUs-AdressInfo{
 
-}*/
 .Social-Content {
-  padding-top: 95px;
+  text-align: center;
+  padding-top: 215px;
+  padding-bottom: 145px;
 }
