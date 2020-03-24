@@ -1,0 +1,52 @@
+.Header-Wrapper{
+  background-color: $colorBackgroundHeader;
+  text-align: center;
+}
+
+.Header-Logo {
+  font-family: $fontMontserrat;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 1.2px;
+  line-height: 2.8rem;
+  border: 4.54px solid $colorBorderLogo;
+  filter: drop-shadow(0 0 1px rgba(21, 21, 22, 0.75));
+  margin-top: 64px;
+  margin-left: -570px;
+  padding: 6px 7px 3px 9px;
+  color: $colorBlack;
+  font-weight: 700;
+  position: absolute;
+}
+
+.Header-H1 {
+  padding: 304px 0px 0px;
+  line-height: 5.8rem;
+  filter: drop-shadow(3.517px 8.285px 5px rgba(0, 0, 0, 0.24));
+}
+
+.Header-SpanLogo {
+  font-size: 1.9rem;
+  color: $colorSpanLogo;
+}
+
+.Header-SpanH1 {
+  padding: 0px 11px;
+  background-color: $colorBackgroundHeaderSpan;
+}
+
+.Header-Button {
+  display: inline-block;
+  position: relative;
+  border: 2px solid $colorBlack;
+  margin-top: 137px;
+  margin-bottom: 199px;
+}
+
+.Header-Glass {
+  padding-left: 1117px;
+  margin-top: -234px;
+  padding-bottom: 70px;
+  text-align: right;
+  padding-right: 264px;
+}

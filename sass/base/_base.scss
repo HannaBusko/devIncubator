@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: $colorWhite;
+}
+
+body {
+  margin: 0;
+  background-image: url("/img/Background.svg");
+  @include font($size: 1.6rem, $family: $fontRaleway, $weight: 400);
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $colorTextHeader;
+  text-align: center;
+  @extend %heading;
+  @include font($size: 4.5rem, $family: $fontMontserrat);
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  @extend %heading;
+  @include font($size: 3.8rem, $family: $fontMontserrat);
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 2.8rem;
+  @extend %heading;
+  @include font($size: 2rem, $family: $fontMerriweather);
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2.8rem;
+  text-align: center;
+  @extend %heading;
+  @include font($size: 1.8rem, $family: $fontMerriweather, $weight: 400);
+}
+
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 2.8rem;
+  @extend %heading;
+  @include font($size: 1.7rem, $family: $fontMerriweather);
+}
+
+h6 {
+  @extend %heading;
+}
+
+p {
+  margin: 0px;
+}

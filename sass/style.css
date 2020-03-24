@@ -1,0 +1,365 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Raleway-Regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("/fonts/Raleway-Regular.woff") format("woff"), url("/fonts/Raleway-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Raleway-Bold.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("/fonts/Raleway-Bold.woff") format("woff"), url("/fonts/Raleway-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Merriweather-Regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Merriweather Regular"), local("Merriweather-Regular"), url("/fonts/Merriweather-Regular.woff") format("woff"), url("/fonts/Merriweather-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Montserrat-Bold.eot");
+  /* IE9 Compat Modes */
+  src: local("Merriweather Bold"), local("Merriweather-Bold"), url("/fonts/Montserrat-Bold.woff") format("woff"), url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Montserrat-Regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("/fonts/Montserrat-Regular.woff") format("woff"), url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Montserrat-Bold.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("/fonts/Montserrat-Bold.woff") format("woff"), url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+.Button {
+  transition: all 0.4s ease-out;
+}
+
+h6, h5, h4, h3, h2, h1 {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-image: url("/img/Background.svg");
+  font-size: 1.6rem;
+  font-family: "Raleway", "Verdana", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #505050;
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: "Montserrat", "Verdana", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: "Montserrat", "Verdana", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 2.8rem;
+  font-size: 2rem;
+  font-family: "Merriweather", "Verdana", sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2.8rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Merriweather", "Verdana", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 2.8rem;
+  font-size: 1.7rem;
+  font-family: "Merriweather", "Verdana", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin: 0px;
+}
+
+.Button {
+  text-transform: uppercase;
+  border-radius: 2px;
+  height: 53px;
+  letter-spacing: 2px;
+  padding-left: 45px;
+  padding-right: 45px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-family: "Montserrat", "Verdana", sans-serif;
+  font-weight: 400;
+}
+.Button:hover {
+  background-color: #71f6eb;
+}
+
+.Wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.Header-Wrapper {
+  background-color: #eff0f2;
+  text-align: center;
+}
+
+.Header-Logo {
+  font-family: "Montserrat", "Verdana", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 1.2px;
+  line-height: 2.8rem;
+  border: 4.54px solid #170f1c;
+  filter: drop-shadow(0 0 1px rgba(21, 21, 22, 0.75));
+  margin-top: 64px;
+  margin-left: -570px;
+  padding: 6px 7px 3px 9px;
+  color: #000000;
+  font-weight: 700;
+  position: absolute;
+}
+
+.Header-H1 {
+  padding: 304px 0px 0px;
+  line-height: 5.8rem;
+  filter: drop-shadow(3.517px 8.285px 5px rgba(0, 0, 0, 0.24));
+}
+
+.Header-SpanLogo {
+  font-size: 1.9rem;
+  color: #12deb5;
+}
+
+.Header-SpanH1 {
+  padding: 0px 11px;
+  background-color: #b2f2ee;
+}
+
+.Header-Button {
+  display: inline-block;
+  position: relative;
+  border: 2px solid #000000;
+  margin-top: 137px;
+  margin-bottom: 199px;
+}
+
+.Header-Glass {
+  padding-left: 1117px;
+  margin-top: -234px;
+  padding-bottom: 70px;
+  text-align: right;
+  padding-right: 264px;
+}
+
+.AboutUs-Wrapper {
+  background-color: #f8fafa;
+}
+
+.AboutUs-Heading {
+  padding-top: 120px;
+  padding-bottom: 109px;
+}
+
+.AboutUs-Content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.AboutUs-Img {
+  filter: drop-shadow(0 0 15px rgba(20, 20, 21, 0.13));
+  padding-left: 198px;
+  padding-bottom: 135px;
+}
+
+.AboutUs-Info {
+  width: 492px;
+  padding-left: 59px;
+  padding-top: 32px;
+}
+
+.AboutUs-Text {
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  line-height: 2.8rem;
+}
+
+.AboutUs-H3 {
+  margin-bottom: 17px;
+}
+
+.AboutUs-P {
+  margin-bottom: 28px;
+}
+
+.AboutUs-H5 {
+  padding-top: 2px;
+  margin-bottom: 13px;
+}
+
+.Works-Banners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 119px;
+}
+
+.Works-Banner {
+  padding: 7px 7px 6px;
+}
+
+.Works-Heading {
+  padding-top: 120px;
+  padding-bottom: 108px;
+}
+
+.Team-Wrapper {
+  background-color: #f9fbfb;
+}
+
+.Team-Members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 180px;
+}
+
+.Team-Member {
+  padding: 10px 8px 4px;
+}
+
+.Team-Heading {
+  padding-top: 90px;
+  padding-bottom: 108px;
+}
+
+.Team-H4 {
+  line-height: 2.4rem;
+}
+
+/*.Social {
+  background-color: $colorBackgroundFooter;
+}*/
+.Footer-Wrapper {
+  background-image: url("/img/christmas_snow_trees-wide.svg");
+  background-position: center;
+}
+
+.ContactUs-Content {
+  color: #ffffff;
+  padding-top: 124px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 149px;
+}
+
+.ContactUs-Form {
+  width: 614px;
+}
+
+.ContactUs-Form_Paddings {
+  padding: 20px 31px;
+}
+
+.ContactUs-Adress {
+  margin-left: 26px;
+  width: 500px;
+  font-size: 1.5rem;
+  font-family: "Raleway", "Verdana", sans-serif;
+  font-weight: 400;
+}
+
+.ContactUs-Content_colored {
+  filter: drop-shadow(0 0 15px rgba(21, 21, 21, 0.12));
+  background-color: #021623;
+  opacity: 71%;
+}
+
+.ContactUs-Input {
+  border: none;
+  padding-top: 27px;
+  padding-bottom: 15px;
+}
+.ContactUs-Input::placeholder {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Raleway", "Verdana", sans-serif;
+  font-weight: 400;
+}
+
+.ContactUs-Line {
+  background-color: #ffffff;
+  height: 1px;
+  opacity: 71%;
+}
+
+.ContactUs-Button {
+  margin-bottom: 18px;
+  margin-top: 38px;
+  padding: 0px 36px;
+  border: none;
+  letter-spacing: 2.1px;
+}
+
+.ContactUs-P {
+  padding-top: 9px;
+}
+
+/*.ContactUs-AdressInfo{
+
+}*/
+.Social-Content {
+  padding-top: 95px;
+}
+
+/*# sourceMappingURL=style.css.map */

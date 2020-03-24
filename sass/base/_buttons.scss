@@ -1,0 +1,15 @@
+.Button {
+  text-transform: uppercase;
+  border-radius: 2px;
+  height: 53px;
+  letter-spacing: 2px;
+  padding-left: 45px;
+  padding-right: 45px;
+  cursor: pointer;
+  @extend %transitionButton;
+  @include font($size: 1.8rem, $family: $fontMontserrat, $weight: 400);
+
+  &:hover {
+    background-color: $colorBackground_hover;
+  }
+}

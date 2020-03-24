@@ -1,0 +1,22 @@
+.Team-Wrapper {
+  background-color: $colorBackgroundTeam;
+}
+
+.Team-Members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 180px;
+}
+.Team-Member {
+    padding: 10px 8px 4px;
+}
+
+.Team-Heading {
+  padding-top: 90px;
+  padding-bottom: 108px;
+}
+
+.Team-H4 {
+  line-height: 2.4rem;
+}
