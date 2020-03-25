@@ -17,11 +17,17 @@
 .Ico {
   cursor: pointer;
   display: inline-block;
+  background-size: contain;
   width: 46px;
   height: 40px;
   &:hover{
     background-color: $colorBackground_hover;
   }
+}
+
+.Ico_small{
+  width: 15px;
+  height: 15px;
 }
 
 .IcoPinterest {

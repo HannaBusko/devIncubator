@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Death valley</title>
     <link rel="stylesheet" href="../sass/style.css">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7bc29aab-118f-467b-9f12-dbbc8a437686" type="text/javascript"></script>
-        <script src="mapbasics.js" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7bc29aab-118f-467b-9f12-dbbc8a437686"
+        type="text/javascript"></script>
+    <script src="mapbasics.js" type="text/javascript"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -62,12 +64,20 @@
                 <h4>Lorem ipsum dolor sit amet event landing template</h4>
             </div>
             <div class="Works-Banners">
-                <img class="Works-Banner" src="img/banner3.svg" alt="ice-cream">
-                <img class="Works-Banner" src="img/banner5.svg" alt="card">
-                <img class="Works-Banner" src="img/banner6.svg" alt="buttle">
-                <img class="Works-Banner" src="img/banner4.svg" alt="book">
-                <img class="Works-Banner" src="img/banner2.svg" alt="nine">
-                <img class="Works-Banner" src="img/banner1.svg" alt="bag">
+                <img class="Works-Banner" src="img/banner3.svg" alt="ice-cream" onclick="showPopup('iceCream')">
+                <img class="Works-Popup" id="iceCream" src="img/banner3_full.svg" alt="ice-cream"
+                    onclick="showPopup('iceCream')">
+                <img class="Works-Banner" src="img/banner5.svg" alt="card" onclick="showPopup('card')">
+                <img class="Works-Popup" id="card" src="img/banner5_full.svg" alt="card" onclick="showPopup('card')">
+                <img class="Works-Banner" src="img/banner6.svg" alt="buttle" onclick="showPopup('buttle')">
+                <img class="Works-Popup" id="buttle" src="img/banner6_full.svg" alt="buttle"
+                    onclick="showPopup('buttle')">
+                <img class="Works-Banner" src="img/banner4.svg" alt="book" onclick="showPopup('book')">
+                <img class="Works-Popup" id="book" src="img/banner4_full.svg" alt="book" onclick="showPopup('book')">
+                <img class="Works-Banner" src="img/banner2.svg" alt="nine" onclick="showPopup('nine')">
+                <img class="Works-Popup" id="nine" src="img/banner2_full.svg" alt="nine" onclick="showPopup('nine')">
+                <img class="Works-Banner" src="img/banner1.svg" alt="bag" onclick="showPopup('bag')">
+                <img class="Works-Popup" id="bag" src="img/banner1_full.svg" alt="bag" onclick="showPopup('bag')">
             </div>
         </div>
     </section>
@@ -79,13 +89,143 @@
                 <h4 class="Team-H4"> Lorem ipsum dolor sit amet event landing template</h4>
             </div>
             <div class="Team-Members">
-                <img class="Team-Member" src="img/team_3.svg" alt="girl">
-                <img class="Team-Member" src="img/team_4.svg" alt="boy">
-                <img class="Team-Member" src="img/team_1.svg" alt="boy">
-                <img class="Team-Member" src="img/team_2.svg" alt="boy">
-                <img class="Team-Member" src="img/team_5.svg" alt="nine">
-                <img class="Team-Member" src="img/team_3.svg" alt="girl">
+                <div class="Team-Content">
+                    <div class="MemberInfo">
+                        <img class="Member-Shape" src="img/shape.svg" alt="shape">
+                        <div class="MemberInfo-Text">
+                            <p class="MemberInfo-TextTitle">AL RAYHAN <span class="MemberInfo-TextTitle_italic">/UI
+                                    Designer</span></p>
+                            <p>Lorem Ipsum is not simply is an </br>action designer random text</br>
+                                It has roots in a piece. </p>
+                            <div class="Member-Link">
+                                <a href="#" class="SocialLinks-Twitter">
+                                    <span class="Ico Ico_small IcoTwitter"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Facebook">
+                                    <span class="Ico Ico_small IcoFacebook"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Twitter2">
+                                    <span class="Ico Ico_small IcoTwitter2"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="Team-Member" src="img/team_3.svg" alt="girl">
+                </div>
+
+                <div class="Team-Content">
+                    <div class="MemberInfo">
+                        <img class="Member-Shape" src="img/shape.svg" alt="shape">
+                        <div class="MemberInfo-Text">
+                            <p class="MemberInfo-TextTitle">AL RAYHAN <span class="MemberInfo-TextTitle_italic">/UI
+                                    Designer</span></p>
+                            <p>Lorem Ipsum is not simply is an </br>action designer random text</br>
+                                It has roots in a piece. </p>
+                            <div class="Member-Link">
+                                <a href="#" class="SocialLinks-Twitter">
+                                    <span class="Ico Ico_small IcoTwitter"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Facebook">
+                                    <span class="Ico Ico_small IcoFacebook"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Twitter2">
+                                    <span class="Ico Ico_small IcoTwitter2"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><img class="Team-Member" src="img/team_4.svg" alt="boy">
+                </div>
+                <div class="Team-Content">
+                    <div class="MemberInfo">
+                        <img class="Member-Shape" src="img/shape.svg" alt="shape">
+                        <div class="MemberInfo-Text">
+                            <p class="MemberInfo-TextTitle">AL RAYHAN <span class="MemberInfo-TextTitle_italic">/UI
+                                    Designer</span></p>
+                            <p>Lorem Ipsum is not simply is an </br>action designer random text</br>
+                                It has roots in a piece. </p>
+                            <div class="Member-Link">
+                                <a href="#" class="SocialLinks-Twitter">
+                                    <span class="Ico Ico_small IcoTwitter"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Facebook">
+                                    <span class="Ico Ico_small IcoFacebook"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Twitter2">
+                                    <span class="Ico Ico_small IcoTwitter2"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><img class="Team-Member" src="img/team_1.svg" alt="boy">
+                </div>
+                <div class="Team-Content">
+                    <div class="MemberInfo">
+                        <img class="Member-Shape" src="img/shape.svg" alt="shape">
+                        <div class="MemberInfo-Text">
+                            <p class="MemberInfo-TextTitle">AL RAYHAN <span class="MemberInfo-TextTitle_italic">/UI
+                                    Designer</span></p>
+                            <p>Lorem Ipsum is not simply is an </br>action designer random text</br>
+                                It has roots in a piece. </p>
+                            <div class="Member-Link">
+                                <a href="#" class="SocialLinks-Twitter">
+                                    <span class="Ico Ico_small IcoTwitter"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Facebook">
+                                    <span class="Ico Ico_small IcoFacebook"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Twitter2">
+                                    <span class="Ico Ico_small IcoTwitter2"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><img class="Team-Member" src="img/team_2.svg" alt="boy">
+                </div>
+                <div class="Team-Content">
+                    <div class="MemberInfo">
+                        <img class="Member-Shape" src="img/shape.svg" alt="shape">
+                        <div class="MemberInfo-Text">
+                            <p class="MemberInfo-TextTitle">AL RAYHAN <span class="MemberInfo-TextTitle_italic">/UI
+                                    Designer</span></p>
+                            <p>Lorem Ipsum is not simply is an </br>action designer random text</br>
+                                It has roots in a piece. </p>
+                            <div class="Member-Link">
+                                <a href="#" class="SocialLinks-Twitter">
+                                    <span class="Ico Ico_small IcoTwitter"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Facebook">
+                                    <span class="Ico Ico_small IcoFacebook"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Twitter2">
+                                    <span class="Ico Ico_small IcoTwitter2"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><img class="Team-Member" src="img/team_5.svg" alt="girl">
+                </div>
+                <div class="Team-Content">
+                    <div class="MemberInfo">
+                        <img class="Member-Shape" src="img/shape.svg" alt="shape">
+                        <div class="MemberInfo-Text">
+                            <p class="MemberInfo-TextTitle">AL RAYHAN <span class="MemberInfo-TextTitle_italic">/UI
+                                    Designer</span></p>
+                            <p>Lorem Ipsum is not simply is an </br>action designer random text</br>
+                                It has roots in a piece. </p>
+                            <div class="Member-Link">
+                                <a href="#" class="SocialLinks-Twitter">
+                                    <span class="Ico Ico_small IcoTwitter"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Facebook">
+                                    <span class="Ico Ico_small IcoFacebook"></span>
+                                </a>
+                                <a href="#" class="SocialLinks-Twitter2">
+                                    <span class="Ico Ico_small IcoTwitter2"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><img class="Team-Member" src="img/team_3.svg" alt="girl">
+                </div>
             </div>
+        </div>
+
     </section>
 
     <footer class="Footer">
@@ -117,12 +257,11 @@
                         <p class="ContactUs-P">Fax:<span class="ContactUs_Phone">+456456 54546</span></p>
                         </br>
                         <p class="ContactUs-P">Web: <a href="www.designagency.net">www.designagency.net</a></p>
-                        <p class="ContactUs-P">E-mail:<a href="mailto:info@designagency.net">info@designagency.net</a></p>
+                        <p class="ContactUs-P">E-mail:<a href="mailto:info@designagency.net">info@designagency.net</a>
+                        </p>
                     </div>
                     <div id="map">
-
                     </div>
-                    <!--<img src="img/GoogleMap.svg" alt="map">-->
                 </div>
             </div>
             <div class="Social">

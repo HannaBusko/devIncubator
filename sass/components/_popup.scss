@@ -1,0 +1,19 @@
+.Works-Popup {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.show {
+  visibility: visible;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
