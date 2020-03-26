@@ -14,6 +14,13 @@
   display: flex;
   justify-content: flex-start;
   margin-left: 149px;
+  margin-bottom: 123px;
+  @include mediaIpad{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+  }
 }
 
 .ContactUs-Form {
@@ -28,6 +35,9 @@
   margin-left: 26px;
   width: 500px;
   @include font($size: 1.5rem, $family: $fontRaleway, $weight: 400);
+  @include mediaIpad{
+    margin: 0px;
+  }
 }
 
 .ContactUs-Content_colored {
@@ -51,7 +61,7 @@
   opacity: 71%;
 }
 
-.ContactUs-Button{
+.ContactUs-Button {
   margin-bottom: 18px;
   margin-top: 38px;
   padding: 0px 36px;
@@ -59,12 +69,14 @@
   letter-spacing: 2.1px;
 }
 
-.ContactUs-P{
+.ContactUs-P {
   padding-top: 9px;
 }
 
 .Social-Content {
   text-align: center;
-  padding-top: 215px;
-  padding-bottom: 145px;
+  height: 315px;
+  & h6{
+    padding-top: 90px;
+  }
 }
