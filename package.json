@@ -4,8 +4,8 @@
   "description": "https://HannaBusko.github.io/devIncubator.layout",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "sass --watch src/sass/style.scss src/sass/style.css"
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "prod": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,19 @@
   "bugs": {
     "url": "https://github.com/HannaBusko/devIncubator.layout/issues"
   },
-  "homepage": "https://github.com/HannaBusko/devIncubator.layout#readme"
+  "homepage": "https://github.com/HannaBusko/devIncubator.layout#readme",
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.2",
+    "node-sass": "^4.13.1",
+    "resolve-url-loader": "^3.1.1",
+    "sass-loader": "^8.0.2",
+    "script-loader": "^0.7.2",
+    "style-loader": "^1.1.3",
+    "svg-inline-loader": "^0.8.2"
+  }
 }
-   

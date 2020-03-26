@@ -170,19 +170,19 @@ p {
 }
 
 .IcoPinterest {
-  background-image: url(../../img/pinterest.svg);
+  background-image: url("/img/pinterest.svg");
 }
 
 .IcoTwitter {
-  background-image: url(../../img/Twiter.svg);
+  background-image: url("/img/Twiter.svg");
 }
 
 .IcoFacebook {
-  background-image: url(../../img/Facebook.svg);
+  background-image: url("/img/Facebook.svg");
 }
 
 .IcoTwitter2 {
-  background-image: url(../../img/Twiter2.svg);
+  background-image: url("/img/Twiter2.svg");
 }
 
 .Wrapper {
@@ -472,9 +472,6 @@ p {
   padding-left: 10px;
 }
 
-/*.Social {
-  background-color: $colorBackgroundFooter;
-}*/
 .Footer-Wrapper {
   background-image: url("/img/christmas_snow_trees-wide.svg");
   background-position: bottom;
