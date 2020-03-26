@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "sass --watch sass/style.scss sass/style.css"
+    "style": "sass --watch src/sass/style.scss src/sass/style.css"
   },
   "author": "",
   "license": "ISC",
@@ -18,3 +18,4 @@
   },
   "homepage": "https://github.com/HannaBusko/devIncubator.layout#readme"
 }
+   
