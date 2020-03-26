@@ -1,14 +1,20 @@
-.Works-Banners{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    padding-bottom: 119px;
+.Works-Banners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 119px;
 }
-.Works-Banner{
-    padding: 7px 7px 6px;
+.Works-Banner {
+  padding: 7px 7px 6px;
 }
 
 .Works-Heading {
-    padding-top: 120px;
-    padding-bottom: 108px;
+  padding-top: 120px;
+  padding-bottom: 108px;
+}
+
+.Works-Popup {
+  @include mediaIpad {
+    width: 100%;
   }
+}

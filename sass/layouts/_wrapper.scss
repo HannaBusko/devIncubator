@@ -1,4 +1,8 @@
-.Wrapper{
-   max-width: $contentWidth;
-   margin: auto;
+.Wrapper {
+  max-width: $contentWidth;
+  margin: auto;
+  @include mediaLaptop;
+  @include mediaTablet;
+  @include mediaMobile;
+  @include mediaMobileSmall;
 }

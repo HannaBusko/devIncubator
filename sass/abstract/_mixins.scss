@@ -3,3 +3,28 @@
     font-family: $family;
     font-weight: $weight;
 }
+
+@mixin mediaLaptop {
+    @media(max-width: $contentWidth){@content;}    
+}
+@mixin mediaIpad{
+    @media(max-width: $ipadWidth){@content;}    
+}
+@mixin mediaTablet {
+    @media(max-width: $tabletWidth){@content;}    
+}
+@mixin mediaMobile {
+    @media(max-width: $mobileBigWidth){@content;}    
+}
+@mixin mediaMobileSmall{
+    @media(max-width: $mobileSmallWidth){@content;}    
+}
+
+@mixin adaptiveSize($width,$padding-top:0px, $padding-left:0px, $padding-bottom:0px,$padding-right:0px) {
+    width: $width;
+    padding-top: $padding-top;
+    padding-left: $padding-left;
+    padding-bottom: $padding-bottom;
+    padding-right: $padding-right;
+   
+}

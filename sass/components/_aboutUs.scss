@@ -1,5 +1,6 @@
 .AboutUs-Wrapper {
   background-color: $colorBackgroundAbout;
+  padding-bottom: 125px;
 }
 
 .AboutUs-Heading {
@@ -14,14 +15,29 @@
 
 .AboutUs-Img {
   filter: drop-shadow(0 0 15px rgba(20, 20, 21, 0.13));
-  padding-left: 198px;
-  padding-bottom: 135px;
+  @include adaptiveSize(455px, $padding-left:27.6%,$padding-bottom:10px);
+  @include mediaIpad {
+    @include adaptiveSize(100%);
+  };
+  @include mediaMobile {
+    @include adaptiveSize(100%);
+  };
+  @include mediaMobileSmall {
+    @include adaptiveSize(100%);
+  };
 }
 
 .AboutUs-Info {
-  width: 492px;
-  padding-left: 59px;
-  padding-top: 32px;
+  @include adaptiveSize(492px, 32px, 59px);
+  @include mediaIpad{
+    @include adaptiveSize(90%, 10px, 10px);
+  }
+  @include mediaMobile {
+    @include adaptiveSize(90%, 5px, 5px);
+  };
+  @include mediaMobileSmall {
+    @include adaptiveSize(90%, 2%, 2%);
+  };
 }
 
 .AboutUs-Text {
