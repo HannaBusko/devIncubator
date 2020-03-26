@@ -1,0 +1,44 @@
+.AboutUs-Wrapper {
+  background-color: $colorBackgroundAbout;
+}
+
+.AboutUs-Heading {
+  padding-top: 120px;
+  padding-bottom: 109px;
+}
+
+.AboutUs-Content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.AboutUs-Img {
+  filter: drop-shadow(0 0 15px rgba(20, 20, 21, 0.13));
+  padding-left: 198px;
+  padding-bottom: 135px;
+}
+
+.AboutUs-Info {
+  width: 492px;
+  padding-left: 59px;
+  padding-top: 32px;
+}
+
+.AboutUs-Text {
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  line-height: 2.8rem;
+}
+
+.AboutUs-H3 {
+  margin-bottom: 17px;
+}
+
+.AboutUs-P {
+  margin-bottom: 28px;
+}
+
+.AboutUs-H5 {
+  padding-top: 2px;
+  margin-bottom: 13px;
+}

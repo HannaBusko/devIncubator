@@ -1,0 +1,78 @@
+.Team-Wrapper {
+  background-color: $colorBackgroundTeam;
+}
+
+.Team-Members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 172px;
+}
+.Team-Member {
+  padding: 10px 8px 4px;
+}
+
+.Team-Heading {
+  padding-top: 90px;
+  padding-bottom: 108px;
+}
+
+.Team-H4 {
+  line-height: 2.4rem;
+}
+.MemberInfo {
+  position: absolute;
+  opacity: 0;
+  top: 40%;
+  left: 15%;
+}
+
+.Team-Content {
+  position: relative;
+  &:hover .MemberInfo {
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+}
+.MemberInfo-Text {
+  background-color: $colorBackgroundSpeach;
+  line-height: 2.4rem;
+  text-align: left;
+  filter: drop-shadow(2.735px 6.444px 8px rgba(20, 20, 21, 0.18));
+
+  position: relative;
+  top: 15px;
+  z-index: 1; 
+  
+  width: 335px;
+  height: 241px;
+  &>p{
+    margin-left: 10px;
+  }
+}
+
+.Member-Shape {
+  position: absolute;
+  z-index: 2;
+}
+
+.MemberInfo-TextTitle {
+  text-align: center;
+  padding: 40px 0px 15px;
+  @include font($size: 2rem, $family: $fontMerriweather);
+}
+
+.MemberInfo-TextTitle_italic {
+  font-style: italic;
+  @include font($size: 1.6rem, $family: $fontMerriweather, $weight: 400);
+  opacity: 70%;
+}
+
+.Member-Link{
+  padding-top: 35px;
+  margin-left: 30px;;
+  &>a{
+    padding-left: 10px;
+  }
+}

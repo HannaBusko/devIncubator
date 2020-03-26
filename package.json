@@ -1,0 +1,20 @@
+{
+  "name": "thedeathvalley",
+  "version": "1.0.0",
+  "description": "https://HannaBusko.github.io/devIncubator.layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch sass/style.scss sass/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannaBusko/devIncubator.layout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HannaBusko/devIncubator.layout/issues"
+  },
+  "homepage": "https://github.com/HannaBusko/devIncubator.layout#readme"
+}

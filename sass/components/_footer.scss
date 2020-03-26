@@ -1,0 +1,70 @@
+/*.Social {
+  background-color: $colorBackgroundFooter;
+}*/
+
+.Footer-Wrapper {
+  background-image: url("/img/christmas_snow_trees-wide.svg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.ContactUs-Content {
+  color: $colorWhite;
+  padding-top: 124px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 149px;
+}
+
+.ContactUs-Form {
+  width: 614px;
+}
+
+.ContactUs-Form_Paddings {
+  padding: 20px 31px;
+}
+
+.ContactUs-Adress {
+  margin-left: 26px;
+  width: 500px;
+  @include font($size: 1.5rem, $family: $fontRaleway, $weight: 400);
+}
+
+.ContactUs-Content_colored {
+  filter: drop-shadow(0 0 15px rgba(21, 21, 21, 0.12));
+  background-color: $colorBackgroundContact;
+  opacity: 71%;
+}
+
+.ContactUs-Input {
+  border: none;
+  padding-top: 27px;
+  padding-bottom: 15px;
+  &::placeholder {
+    color: $colorWhite;
+    @include font($size: 1.5rem, $family: $fontRaleway, $weight: 400);
+  }
+}
+.ContactUs-Line {
+  background-color: $colorWhite;
+  height: 1px;
+  opacity: 71%;
+}
+
+.ContactUs-Button{
+  margin-bottom: 18px;
+  margin-top: 38px;
+  padding: 0px 36px;
+  border: none;
+  letter-spacing: 2.1px;
+}
+
+.ContactUs-P{
+  padding-top: 9px;
+}
+
+.Social-Content {
+  text-align: center;
+  padding-top: 215px;
+  padding-bottom: 145px;
+}
